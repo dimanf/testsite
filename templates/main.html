@@ -1,0 +1,11 @@
+<html>
+	<body>
+		<h1>Всем дароу!!!</h1>		
+		{% for img in images %}
+			<p>{{ img.name }}</p>
+			{% autoescape off %}
+			<p>{{ img.work }}</p>
+			{% endautoescape %}
+		{% endfor %}
+	</body>
+</html>
