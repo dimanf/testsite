@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # Django settings for testsite project.
 
-# Переменна пути к каталогу проекта.
 import os
 PATH = os.path.abspath(os.path.dirname(__file__))
 
